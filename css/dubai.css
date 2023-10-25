@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 1.5em;}
+p{ font-size: 1.00em;}
+
+/*Para pasar el mouse cambie de color*/
+li :hover{
+    background-color: #a2a8a9;
+}
+
+.container-titulo {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/*Header del index*/
+header{
+    justify-content: space-evenly;
+}
+
+header .container-titulo{
+    display: flex;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 50px;
+    text-align: initial;
+    width: 207.2vh;
+    height: 20vh;
+    color: white;
+
+    background-image: linear-gradient(
+        0deg,
+        #255e65,
+        #255e65
+    )
+}
+
+header p{
+    margin: 500px;
+}
+
+/*BARRA DE MENU*/
+#barra-home {
+    display:contents;
+    width: 25%; 
+    top: 500px;/*Da altura de un texto*/
+}
+
+.navbar-home {
+    background-color: #D6D39F;
+    height: 50px; /* Ajusta el alto según tus necesidades */
+    padding: 15px; /* Añade relleno para separar el contenido de los bordes */
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-home ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-home li {
+    display: inline;
+    margin-right: 20px; /*Distancia entre el texto de la barra nav*/
+}
+
+.navbar-home a {
+    color: #0a0404;
+    text-decoration: none;
+    font-size: 20px; /* Aumenta el tamaño del texto según tus preferencias */
+}
+
+/*INFORMACION DE DUBAI*/
+#dubai .container-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dubai .texto2{
+    width: 900px; /*Ancho del texto*/
+    height: 100px; /*Largo del texto*/
+    max-width: 900px;
+    text-align:justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute; 
+    top: 850px;/*Da altura de un texto*/
+    left: 250px ;/*Controla para que se mueva al lado izquierdo*/
+}
+
+#dubai .mapa-dubai{
+    display: flex;
+    position: absolute; 
+    top: 1150px;/*Da altura de un texto*/
+    left: 450px ;/*Controla para que se mueva al lado izquierdo*/
+}
+
+/* FOOTER */
+.footer {
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    padding: 10px; /* Espaciado interior */
+    position: fixed; /* Posición fija */
+    bottom: 0; /* Fijar en la parte inferior */
+    left: 0; /* Alinear a la izquierda */
+    right: 0; /* Alinear a la derecha */
+}
+
+.footer button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 5px 10px; /* Espaciado del botón */
+    border: none; /* Elimina el borde del botón */
+}
+
+h1{
+    position: absolute; 
+    top: 230px;/*Da altura de un texto*/
+    left: 400px ;/*Controla para que se mueva al lado izquierdo*/
+}

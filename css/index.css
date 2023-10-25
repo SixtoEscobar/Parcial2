@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 1.5em;}
+p{ font-size: 1.00em;}
+
+/*Para pasar el mouse cambie de color*/
+li :hover{
+    background-color: #a2a8a9;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/*Header del index*/
+header{
+    justify-content: space-evenly;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    text-align: initial;
+    flex-direction: row;
+    width: 209.9vh;
+    height: 20vh;
+    color: white;
+    
+    background-image: linear-gradient(
+        0deg,
+        #255e65,
+        #255e65
+    )
+}
+
+header p{
+    margin: 500px;
+}
+
+/*BARRA DE MENU*/
+#barra {
+    display:contents;
+    width: 25%; 
+    top: 500px;/*Da altura de un texto*/
+}
+
+.navbar {
+    background-color: #D6D39F;
+    height: 50px; /* Ajusta el alto según tus necesidades */
+    padding: 15px; /* Añade relleno para separar el contenido de los bordes */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px; /*Distancia entre el texto de la barra nav*/
+}
+
+.navbar a {
+    color: #0a0404;
+    text-decoration: none;
+    font-size: 20px; /* Aumenta el tamaño del texto según tus preferencias */
+}
+
+/*INFORMACION DE INICIO*/
+#informacion .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#informacion .texto{
+    width: 700px; /*Ancho del texto*/
+    height: 100px; /*Largo del texto*/
+    max-width: 900px;
+    text-align:justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute; 
+    top: 370px;/*Da altura de un texto*/
+    left: 100px ;/*Controla para que se mueva al lado izquierdo*/
+}
+
+#informacion .mapa{
+    display: flex;
+    position: absolute; 
+    top: 250px;/*Da altura de un texto*/
+    left: 900px ;/*Controla para que se mueva al lado izquierdo*/
+}
+
+h1{
+    position: absolute; 
+    top: 230px;/*Da altura de un texto*/
+    left: 100px ;/*Controla para que se mueva al lado izquierdo*/
+}
+
+/*INFORMACION DE DUBAI*/
+#dubai .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dubai .texto2{
+    width: 700px; /*Ancho del texto*/
+    height: 100px; /*Largo del texto*/
+    max-width: 900px;
+    text-align:justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute; 
+    top: 500px;/*Da altura de un texto*/
+    left: 100px ;/*Controla para que se mueva al lado izquierdo*/
+}
